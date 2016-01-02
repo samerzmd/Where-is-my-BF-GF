@@ -22,7 +22,6 @@ public class SpeedProvider extends AppWidgetProvider {
         CharSequence widgetText = context.getString(R.string.appwidget_text);
         // Construct the RemoteViews object
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.speed_provider);
-        views.setTextViewText(R.id.appwidget_text, widgetText);
 
         // Instruct the widget manager to update the widget
         appWidgetManager.updateAppWidget(appWidgetId, views);
@@ -45,7 +44,7 @@ public class SpeedProvider extends AppWidgetProvider {
         if(isFirst){
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP,1,60000, PendingIntent.getBroadcast(context,1,  intentAlarm, PendingIntent.FLAG_UPDATE_CURRENT));
             isFirst=false;
-            Toast.makeText(context,"activated",Toast.LENGTH_SHORT).show();
+           // Toast.makeText(context,"activated",Toast.LENGTH_SHORT).show();
         }
         // Enter relevant functionality for when the first widget is created
     }
