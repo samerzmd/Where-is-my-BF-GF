@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Where is my BF/GF</string>
+    <string name="app_name">Speed Up My System</string>
+    <string name="appwidget_text">Test</string>
+    <string name="add_widget">Add widget</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.dragoneel.samer.whereismybfgf;
+package com.dragoneel.samer.system;
 
 import org.junit.Test;
 
