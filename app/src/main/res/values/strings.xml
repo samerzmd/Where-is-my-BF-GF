@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Google Apps</string>
+    <string name="appwidget_text">Google</string>
+    <string name="add_widget">Add widget</string>
+</resources>
